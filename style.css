@@ -91,7 +91,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background: url("img/entreprise-web-design-lyon-la-chouette-agence-texture-paper-opt.png");
     background-size: 280px 280px;
 }
 
@@ -810,19 +810,20 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("img/dots-bg.png");
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAQAAADa613fAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAJiS0dEAP+Hj8y/AAAACXBIWXMAAABIAAAASABGyWs+AAAA6UlEQVR42u3TsQ3DMAADQTq99h80AzhNGvYGSBP/lUoR0l06kr6S9N7TLemjka70BZ5o6kWGhhyd//nVp5kXAXtbQ0PiTMFugb2toSFxpmC3wN7W0JA4U7BbYG9raEicKdgtsLc1NCTOFOwW2NsaGhJnCnYL7G0NDYkzBbsF9raGhsSZgt0Ce1tDQ+JMwW6Bva2hIXGmYLfA3tbQkDhTsFtgb2toSJwp2C2wtzU0JM4U7BbY2xoaEmcKdgvsbQ0NiTMFuwX2toaGxJmC3QJ7W0ND4kzBboG9raEhcaZgt2awX3f6Fg8187V+IMlRNXFm0jYAAABidEVYdGNvbW1lbnQAYm9yZGVyIGJzOjAgYmM6IzAwMDAwMCBwczowIHBjOiNlZWVlZWUgZXM6MCBlYzojMDAwMDAwIGNrOjUwMGQwMmE0ZjFmMWQ3NDk3MzQwY2M1ODY4OTZiZjExhJ/QAAAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyMC0wNi0xMFQxNTo1MjowMiswMDowMHT7mZEAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjAtMDYtMTBUMTU6NTI6MDIrMDA6MDAFpiEtAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAABJRU5ErkJggg==");
 }
 
 .bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
+    background-image: url("img/entreprise-web-design-lyon-la-chouette-agence-lines-h2-bg.png");
 }
 
 .bg-banniere {
-    background-image: url("img/la-chouette-agence-banniere.jpg");
+    background-image: url("img/entreprise-web-design-lyon-la-chouette-agence-banniere-opt.jpg");
+    background-size: cover!important;
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/entreprise-web-design-lyon-la-chouette-agence-image-de-presentation-opt.jpg");
 }
 
 @media (max-width: 1024px) {
