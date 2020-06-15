@@ -21,7 +21,7 @@
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
 
 		<!--minification des ressources-->
-		<link rel="stylesheet" type="text/css" href="style.min.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
 		<link rel="stylesheet" type="text/css" href="./css/et-line.min.css">
 		
 		<!--Balises Open Graph-->
@@ -93,7 +93,7 @@
 				<!-- bloc-0 END -->
 
 				<!-- bloc-6 -->
-				<div class="bloc bg-dots-bg bg-repeat bgc-atomic-tangerine d-bloc bloc-bg-texture texture-paper" id="bloc-6">
+				<div class="bloc bg-banniere bg-repeat bgc-atomic-tangerine d-bloc bloc-bg-texture texture-paper" id="bloc-6">
 					<div class="container bloc-lg">
 						<div class="row">
 							<div class="col-sm-12">
@@ -117,29 +117,25 @@
 					<div class="container bloc-lg">
 						<div class="row">
 							<div class="col-sm-6">
+								<h2>
+									<b>Formulaire de contact</b>
+								</h2>
 								<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
-									<div class="form-group">
-										<label>
-											Nom
-										</label>
-										<input id="name" class="form-control" required />
+									<div class="form-group lien_focus">
+										<label for="name">Nom</label>
+										<input aria-label="Nom" id="name" class="form-control" placeholder="Entrer un nom" required />
 									</div>
-									<div class="form-group">
-										<label>
-											Adresse email
-										</label>
-										<input id="email" class="form-control" type="email" required />
+									<div class="form-group lien_focus">
+										<label for="email">Adresse email</label>
+										<input aria-label="email" id="email" type="email" class="form-control" type="email" placeholder="Entrer une adresse mail" required />
 									</div>
-									<div class="form-group">
-										<label>
-											Comment nous avez-vous connu ?
-										</label>
-										<input class="form-control" type="email" required id="input_504" />
+									<div class="form-group lien_focus">
+										<label for="info_sup">Comment nous avez-vous connu ?</label>
+										<input aria-label="Comment nous avez-vous connu ?" class="form-control" id="info_sup" type="text" placeholder="Entrer une information" required />
 									</div>
-									<div class="form-group">
-										<label>
-											Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-										</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+									<div class="form-group lien_focus">
+										<label for="message">Brief de votre projet (Ajoutez autant de détails que nécessaire)</label>
+										<textarea aria-label="Brief de votre projet (Ajoutez autant de détails que nécessaire)" id="message" class="form-control" rows="4" cols="50" placeholder="Entrer un message"  required></textarea>
 									</div> 
 									<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 										Envoyer
@@ -148,8 +144,13 @@
 							</div>
 							<div class="col-sm-6">
 								<p>
-									contact@lachouetteagence.com<br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi au vendredi<br>
+									<b>E-mail : </b>
+									<a class="ltc-white lien_focus" href="mailto:contact@lachouetteagence.com">contact@lachouetteagence.com</a><br />
+									<b>Adresse : </b>2 place Sathonay 69001 Lyon<br />
+									<b>Horaire : </b>Ouvert de 9h à 18h, du lundi au vendredi<br />
 								</p>
+								<iframe title="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2783.0831373652145!2d4.827978615567682!3d45.76952407910573!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4eb020f3664e9%3A0x13e3d71752922c1f!2s2%20Place%20Sathonay%2C%2069001%20Lyon!5e0!3m2!1sfr!2sfr!4v1586616636225!5m2!1sfr!2sfr" 
+								width="500" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 							</div>
 						</div>
 					</div>
@@ -166,35 +167,38 @@
 			<footer class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
 				<div class="container bloc-sm">
 					<div class="row">
-						<nav class="col-sm-12">
+						<div class="col-sm-12">
 							<p class="text-center white">
 								La chouette agence - Agence web basée à Lyon.<br />
 								2 place Sathonay 69001 Lyon<br />
-								Ouvert de 9h à 18h, du lundi au vendredi
+								Ouvert de 9h à 18h, du lundi au vendredi<br />
+								contact@lachouetteagence.com
 							</p>
 							<div class="row row-no-gutters social">
 								<div class="col-sm-3">
 									<div class="text-center">
-										<a class="social" href="index.html"><span class="fa fa-twitter icon-md"></span></a>
+										<a class="social" aria-label="lien twitter" href="twitter.com" title="twitter"><span class="fa fa-twitter icon-md lien_focus"></span></a>
 									</div>
 								</div>
 								<div class="col-sm-3">
 									<div class="text-center">
-										<a class="social" href="index.html"><span class="fa fa-facebook icon-md"></span></a>
+										<a class="social" aria-label="lien facebook" href="facebook.fr" title="facebook"><span class="fa fa-facebook icon-md lien_focus"></span></a>
 									</div>
 								</div>
 								<div class="col-sm-3">
 									<div class="text-center">
-										<a class="social" href="index.html"><span class="fa fa-dribbble icon-md"></span></a>
+										<a class="social" aria-label="lien dribbble" href="dribbble.com" title="dribbble"><span class="fa fa-dribbble icon-md lien_focus"></span></a>
 									</div>
 								</div>
 								<div class="col-sm-3">
 									<div class="text-center">
-										<a class="social" href="index.html"><span class="fa fa-instagram icon-md"></span></a>
+										<a class="social" aria-label="lien instagram" href="instagram.com" title="instagram"><span class="fa fa-instagram icon-md lien_focus"></span></a>
 									</div>
 								</div>
+								
 							</div>
-						</nav>
+							
+						</div>
 					</div>
 				</div>
 			</footer>
@@ -204,10 +208,10 @@
 		<!-- Principal conteneur END -->
 			
 		<!-- Scripts js -->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
-		<script async src="./js/blocs.js"></script>
-		<script async src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha256-nuL8/2cJ5NDSSwnKD8VqreErSWHtnEP9E7AySL+1ev4=" crossorigin="anonymous"></script>
-		<script async src="https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.18/jquery.touchSwipe.min.js"></script>
+		<script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+		<script defer src="./js/blocs.js"></script>
+		<script defer src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha256-nuL8/2cJ5NDSSwnKD8VqreErSWHtnEP9E7AySL+1ev4=" crossorigin="anonymous"></script>
+		<script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.18/jquery.touchSwipe.min.js"></script>
 
 	</body>
 </html>

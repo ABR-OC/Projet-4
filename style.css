@@ -341,7 +341,7 @@ a:hover {
 
 .navbar-nav a.active {
     font-weight: bolder;
-    color: #BDB76B!important;
+    color: #6d071a!important;
 }
 
 
@@ -533,9 +533,10 @@ button {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    opacity: 0;
+    opacity: 0.5;
     z-index: 500;
     transition: all .3s ease-in-out;
+    background-color: white;
 }
 
 .scrollToTop span {
@@ -567,6 +568,7 @@ a[data-lightbox]:hover::before {
     z-index: 1;
     position: absolute;
     top: 50%;
+    padding-top: 3px;
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
 }
@@ -778,7 +780,6 @@ h4 {
 .bold-link {
     font-size: 20px;
     font-weight: 700;
-    
 }
 
 .bgc-white {
@@ -790,7 +791,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #BDB76B;
+    background-color: #303030;
 }
 
 .tc-white {
@@ -805,14 +806,17 @@ h4 {
 .btn-atomic-tangerine:hover {
     background: #BDB76B!important;
     color: #6d071a!important;
+    opacity: 0.6;
 }
 
 .ltc-white {
-    color: white!important;
+    color: #6d071a!important;
 }
 
 .ltc-white:hover {
-    color: #6d071a!important;
+    color: #BDB76B!important;
+    text-decoration: underline;
+    opacity: 0.6;
 }
 
 .ltc-atomic-tangerine {
