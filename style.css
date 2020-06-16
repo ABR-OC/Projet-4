@@ -845,8 +845,14 @@ h4 {
     background-size: cover!important;
 }
 
-.bg-presentation {
+
+
+.no-webp .bg-presentation {
     background-image: url("img/entreprise-web-design-lyon-la-chouette-agence-image-de-presentation-opt.jpg");
+}
+  
+.webp .bg-presentation{
+    background-image: url("img/entreprise-web-design-lyon-la-chouette-agence-image-de-presentation-opt.webp");
 }
 
 @media (max-width: 1024px) {
