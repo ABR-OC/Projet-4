@@ -840,12 +840,12 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/entreprise-web-design-lyon-la-chouette-agence-banniere-opt.webp");
+    background-image: url("img/entreprise-web-design-lyon-la-chouette-agence-banniere-opt.jpg");
     background-size: cover!important;
 }
   
 .bg-presentation {
-    background-image: url("img/entreprise-web-design-lyon-la-chouette-agence-image-de-presentation-opt.webp");
+    background-image: url("img/entreprise-web-design-lyon-la-chouette-agence-image-de-presentation-opt.jpg");
 }
 
 @media (max-width: 1024px) {
