@@ -810,13 +810,12 @@ h4 {
 }
 
 .ltc-white {
-    color: #6d071a!important;
+    color: white!important;
 }
 
 .ltc-white:hover {
-    color: #BDB76B!important;
+    color: #6d071a!important;
     text-decoration: underline;
-    opacity: 0.6;
 }
 
 .ltc-atomic-tangerine {
@@ -840,18 +839,19 @@ h4 {
     background-image: url("img/entreprise-web-design-lyon-la-chouette-agence-lines-h2-bg.png");
 }
 
-.bg-banniere {
+.no-webp .bg-banniere {
     background-image: url("img/entreprise-web-design-lyon-la-chouette-agence-banniere-opt.jpg");
-    background-size: cover!important;
 }
-
-
+  
+.webp .bg-banniere {
+    background-image: url("img/entreprise-web-design-lyon-la-chouette-agence-banniere-opt.webp");
+}
 
 .no-webp .bg-presentation {
     background-image: url("img/entreprise-web-design-lyon-la-chouette-agence-image-de-presentation-opt.jpg");
 }
   
-.webp .bg-presentation{
+.webp .bg-presentation {
     background-image: url("img/entreprise-web-design-lyon-la-chouette-agence-image-de-presentation-opt.webp");
 }
 
