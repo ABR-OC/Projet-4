@@ -18,6 +18,42 @@ a:hover {
     cursor: pointer;
 }
 
+.focus:focus {
+    border: 2px solid #6d071a;
+    padding: 15px 20px;
+    border-radius: 50px 20px;
+    color: white;
+}
+
+.focus-logo:focus {
+    border: 2px solid #6d071a;
+    padding: 2px 25px;
+    margin-left: -11px;
+    border-radius: 50px 20px;
+    color: white;
+}
+
+.focus-contact:focus {
+    border: 2px solid #6d071a;
+    padding: 8px 35px;
+    border-radius: 50px 20px;
+    color: white;
+}
+
+.focus-box:focus {
+    border: 2px solid #6d071a;
+    padding: 5px;
+    border-radius: 50px 20px;
+    color: white;
+}
+
+.focus-btn:focus {
+    border: 2px solid white;
+    padding: 11px 35px;
+    border-radius: 50px 20px;
+    color: white;
+}
+
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
@@ -298,7 +334,7 @@ a:hover {
     font-size: 25px;
     font-weight: normal;
     font-weight: 600;
-    line-height: 44px;
+    line-height: 34px;
 }
 
 .navbar-brand img {
@@ -364,7 +400,7 @@ a:hover {
 }
 
 .navbar-toggle .icon-bar {
-    background-color: rgba(0, 0, 0, .5);
+    background-color: #6d071a;
     width: 26px;
 }
 
@@ -422,7 +458,7 @@ a:hover {
 
 .nav > li > .dropdown a {
     background: none!important;
-    display: block;
+    display: inline;
     padding: 14px 15px;
 }
 
@@ -567,7 +603,7 @@ a[data-lightbox]:hover::before {
     font-weight: 100;
     z-index: 1;
     position: absolute;
-    top: 50%;
+    top: 35%;
     padding-top: 3px;
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
@@ -760,7 +796,7 @@ h4 {
 }
 
 .portfolio-thumb {
-    margin-bottom: 24px;
+    border-radius: 50px 20px;
 }
 
 .portfolio-row {
