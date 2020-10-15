@@ -1,4 +1,4 @@
-# Projet-4 : OC Projet 4 : Optimisez un site web existant
+# Projet-4 : Optimisez un site web existant
 <img src="5.png">
 
 <h3>Scénario</h3>
